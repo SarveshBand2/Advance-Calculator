@@ -15,7 +15,7 @@ void division();
 void sqr();
 void srt();
 void exit();
-void main()
+int main()
 
 {
     
@@ -70,7 +70,7 @@ void main()
         }
         cout << " \n------------------------------\n";
     } while (opr != 7);
-    
+return 0;
 }
 
 void add()
